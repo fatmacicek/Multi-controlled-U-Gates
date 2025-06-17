@@ -1,7 +1,5 @@
 **<ins> Summary </ins>**
 
-This repository is composed of mini projects submitted by me to the Quantum Computing Bootcamp at [the Erdős Institute](https://www.erdosinstitute.org/) during the summer of 2025. The projects were proposed by the course lead [Dr. Ákos Nagy](https://akosnagy.com/). 
+This project is about implementations of a multi-controlled $U$ gate, denoted by $C^n U$, for a general unitary matrix $U$ in $U(2).$ It also includes a survey of several implementations and the Qiskit code for implementing $C^n U$ for general $n$. 
 
-**<ins> Project #1:</ins>** This project is about implementations of a multi-controlled $U$ gate, denoted by $C^n U$, for a general unitary matrix $U$ in $U(2).$ It includes a brief survey of several implementations and the Qiskit code for implementing $C^n U$ for general $n$. 
-
-**<ins> Project #2:</ins>** In this project, given an $n$-qubit statevector for an arbitrary positive integer $n$, we define a function that outputs a circuit which in turn can produce the given statevector. The construction is based on induction. For small values of $n$ such as $1$ and $2$, combination of $R_Y$ gates and controlled $R_Y$ gates with rotation angles obtained from the statevector produce the desired circuit.
+This was a mini project that I completed during the Quantum Computing Bootcamp at [the Erdős Institute](https://www.erdosinstitute.org/) in summer 2025. The project was proposed by the course lead [Dr. Ákos Nagy](https://akosnagy.com/).
