@@ -1,6 +1,6 @@
 **<ins> Summary </ins>**
 
-This project is about implementations of a multi-controlled $U$ gate, denoted by $C^n U$, for a general unitary matrix $U$ in $U(2).$ 
+This project is about implementations of a multi-controlled $U$ gate, denoted by $C^n U$, for a general unitary matrix $U$ in $U(2).$ This is done in the jupyter notebook Cicek_Multi-controlled-U-gates.ipynb.
 
 I wrote a Qiskit code for implementing $C^n U$ for general $n$. This is done by a function named <em>multi_controlled</em> whose inputs are a positive integer $n$ together with a numpy array $U$ that is to satisfy the conditions of a unitary matrix. The output is a circuit which implements the gate $C^n U$. 
 
